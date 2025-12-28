@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///C:/Users/abhir/Documents/Resumes/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhiram Yalavarthy - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 40px 50px 30px;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .location-info {
+            font-size: 13px;
+            opacity: 0.95;
+            margin-top: 10px;
+        }
+        
+        .professional-summary {
+            background: #f8fafc;
+            padding: 30px 50px;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .professional-summary h2 {
+            color: #1e3a8a;
+            font-size: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .professional-summary p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #4b5563;
+        }
+        
+        .content {
+            padding: 30px 50px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h2 {
+            color: #1e3a8a;
+            font-size: 18px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3b82f6;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .certifications {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .cert-item {
+            background: #f0f9ff;
+            padding: 12px 15px;
+            border-left: 3px solid #3b82f6;
+            font-size: 14px;
+        }
+        
+        .cert-item strong {
+            color: #1e3a8a;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+        
+        .skill-category {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        
+        .skill-category strong {
+            color: #1e3a8a;
+            display: inline-block;
+            min-width: 200px;
+        }
+        
+        .experience-item {
+            margin-bottom: 30px;
+        }
+        
+        .job-header {
+            margin-bottom: 12px;
+        }
+        
+        .job-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        
+        .company {
+            font-size: 15px;
+            color: #4b5563;
+            margin-top: 3px;
+        }
+        
+        .date {
+            font-size: 13px;
+            color: #6b7280;
+            font-style: italic;
+            margin-top: 2px;
+        }
+        
+        .experience-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .experience-item li {
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 1.7;
+            color: #4b5563;
+        }
+        
+        .project-item {
+            margin-bottom: 30px;
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .project-header {
+            margin-bottom: 12px;
+        }
+        
+        .project-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e3a8a;
+            margin-bottom: 5px;
+        }
+        
+        .project-meta {
+            font-size: 13px;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+        
+        .project-section {
+            margin-top: 12px;
+        }
+        
+        .project-section h4 {
+            font-size: 14px;
+            color: #1e3a8a;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        
+        .project-section p, .project-section ul {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #4b5563;
+        }
+        
+        .project-section ul {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        
+        .project-section li {
+            margin-bottom: 5px;
+        }
+        
+        .technologies {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 13px;
+            color: #6b7280;
+        }
+        
+        .technologies strong {
+            color: #1e3a8a;
+        }
+        
+        .education-item {
+            margin-bottom: 15px;
+        }
+        
+        .degree {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        
+        .university {
+            font-size: 14px;
+            color: #4b5563;
+            margin-top: 2px;
+        }
+        
+        .achievements {
+            margin-left: 20px;
+        }
+        
+        .achievements li {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #4b5563;
+            margin-bottom: 6px;
+        }
+        
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 10px;
+            z-index: 1000;
+        }
+        
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 14px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .btn:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+        }
+        
+        .btn-edit {
+            background: #10b981;
+        }
+        
+        .btn-edit:hover {
+            background: #059669;
+        }
+        
+        .btn-edit.editing {
+            background: #ef4444;
+        }
+        
+        .btn-edit.editing:hover {
+            background: #dc2626;
+        }
+        
+        [contenteditable="true"] {
+            outline: 2px dashed #3b82f6;
+            outline-offset: 2px;
+            padding: 2px;
+            transition: outline 0.2s;
+        }
+        
+        [contenteditable="true"]:focus {
+            outline: 2px solid #2563eb;
+            background: #eff6ff;
+        }
+        
+        .edit-hint {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #10b981;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+            display: none;
+            z-index: 1001;
+        }
+        
+        .edit-hint.show {
+            display: block;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+            
+            .controls, .edit-hint {
+                display: none !important;
+            }
+            
+            [contenteditable="true"] {
+                outline: none !important;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+            
+            .project-item {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="edit-hint show" id="editHint">✏️ Edit Mode Active - Click any text to edit it!</div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 contenteditable="true" data-editable="">ABHIRAM YALAVARTHY</h1>
+            <div class="contact-info">
+                <span contenteditable="true" data-editable="">✉ yalavarthiab@gmail.com</span>
+                <span contenteditable="true" data-editable="">📱 +1 (734) 899-0831</span>
+                <span contenteditable="true" data-editable="">💼 linkedin.com/in/Abhiram-Yalavarthy</span>
+            </div>
+            <div class="location-info" contenteditable="true" data-editable="">
+                📍Raleigh , NC | Willing to Relocate: Anywhere in the US | Work Authorization: F1-OPT, EAD Approved
+            </div>
+        </div>
+        
+        <div class="professional-summary">
+            <h2 contenteditable="true" data-editable="">Senior DevOps Engineer</h2>
+            <p contenteditable="true" data-editable="">Results-driven Senior DevOps Engineer with 6+ years of expertise architecting cloud-native solutions and automating infrastructure across AWS and Azure. HashiCorp Terraform Certified professional specializing in Infrastructure as Code, container orchestration, and enterprise-scale CI/CD implementations. Track record of reducing deployment times by 40%, cutting infrastructure costs by 35%, and achieving 99.99% availability SLAs through strategic automation and optimization.</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>Certifications</h2>
+                <div class="certifications">
+                    <div class="cert-item" contenteditable="true" data-editable="">
+                        <strong>HashiCorp Certified: Terraform Associate</strong> | HashiCorp
+                    </div>
+                    <div class="cert-item" contenteditable="true" data-editable="">
+                        <strong>AWS Certified Solutions Architect – Associate</strong> | Amazon Web Services
+                    </div>
+                    <div class="cert-item" contenteditable="true" data-editable="">
+                        <strong>Certified Kubernetes Administrator (CKA)</strong> | Cloud Native Computing Foundation
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Core Competencies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category" contenteditable="true" data-editable="">
+                        <strong>Cloud &amp; Infrastructure:</strong> AWS (EC2, Lambda, S3, ECS, EKS, CloudFormation, CodePipeline, VPC, IAM, CloudWatch) • Azure (DevOps, Functions, Resource Manager) • Multi-region architectures • Disaster recovery
+                    </div>
+                    <div class="skill-category" contenteditable="true" data-editable="">
+                        <strong>Infrastructure as Code:</strong> Terraform (Modules, Workspaces, State Management, Providers) • CloudFormation • AWS CDK • Ansible • Configuration Management • Policy as Code
+                    </div>
+                    <div class="skill-category" contenteditable="true" data-editable="">
+                        <strong>DevOps &amp; Automation:</strong> Jenkins • GitHub Actions • GitLab CI/CD • AWS CodePipeline • Blue-green deployments • GitOps workflows • Automated testing
+                    </div>
+                    <div class="skill-category" contenteditable="true" data-editable="">
+                        <strong>Containers &amp; Orchestration:</strong> Docker • Kubernetes • EKS • ECS • Helm • ArgoCD • Container Registry • Microservices architecture
+                    </div>
+                    <div class="skill-category" contenteditable="true" data-editable="">
+                        <strong>Monitoring &amp; Observability:</strong> CloudWatch • Prometheus • Grafana • ELK Stack • Splunk • Datadog • Custom alerting systems
+                    </div>
+                    <div class="skill-category" contenteditable="true" data-editable="">
+                        <strong>Security &amp; Compliance:</strong> IAM • KMS • Secrets Manager • Security scanning • GxP • HIPAA compliance • Vulnerability management
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Professional Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div class="job-title" contenteditable="true" data-editable="">Senior DevOps Engineer</div>
+                        <div class="company" contenteditable="true" data-editable="">University Hospital | Cleveland, OH</div>
+                        <div class="date" contenteditable="true" data-editable="">January 2021 – Present</div>
+                    </div>
+                    <ul contenteditable="true" data-editable="">
+                        <li>Architected enterprise CI/CD infrastructure serving 50+ microservices, reducing deployment time from 2 hours to 30 minutes (75% improvement) and enabling 100+ weekly deployments with zero production incidents</li>
+                        <li>Led AWS cloud migration initiative for healthcare applications, designing compliant infrastructure adhering to HIPAA and GxP standards while implementing automated security scanning and audit logging</li>
+                        <li>Engineered Kubernetes platform on EKS that containerized 25+ applications, achieving 35% infrastructure cost reduction and improving resource utilization from 40% to 85%</li>
+                        <li>Implemented comprehensive monitoring solution using CloudWatch, Prometheus, and Grafana, creating 50+ custom dashboards and reducing MTTD by 60%</li>
+                        <li>Automated infrastructure provisioning using Terraform and CloudFormation, managing 200+ AWS resources as code and reducing manual configuration errors by 95%</li>
+                        <li>Optimized AWS spending through reserved instances, spot instances, and automated resource scheduling, delivering $180K+ annual cost savings (30% reduction)</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div class="job-title" contenteditable="true" data-editable="">Senior DevOps Engineer</div>
+                        <div class="company" contenteditable="true" data-editable="">Zessta Software Services | India</div>
+                        <div class="date" contenteditable="true" data-editable="">December 2020 – January 2021</div>
+                    </div>
+                    <ul contenteditable="true" data-editable="">
+                        <li>Led DevOps transformation initiatives for enterprise clients, implementing automated CI/CD pipelines and cloud infrastructure solutions</li>
+                        <li>Designed and deployed containerized applications using Docker and Kubernetes, improving deployment efficiency and scalability</li>
+                        <li>Provided technical consultation on cloud migration strategies, Infrastructure as Code best practices, and DevOps toolchain optimization</li>
+                        <li>Collaborated with cross-functional teams to establish DevOps standards and methodologies across multiple client projects</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div class="job-title" contenteditable="true" data-editable="">DevOps Engineer</div>
+                        <div class="company" contenteditable="true" data-editable="">Careerwaze India Pvt Ltd | India</div>
+                        <div class="date" contenteditable="true" data-editable="">June 2019 – December 2020</div>
+                    </div>
+                    <ul contenteditable="true" data-editable="">
+                        <li>Designed automated deployment pipelines using Jenkins and Python, processing 200+ monthly deployments and reducing deployment errors from 15% to 4.5% (70% improvement)</li>
+                        <li>Managed production database infrastructure across PostgreSQL and Aurora, implementing automated backup solutions with 99.9% backup success rate</li>
+                        <li>Developed monitoring and alerting framework using CloudWatch and custom Python scripts, creating 30+ proactive alerts that reduced incident response time by 45%</li>
+                        <li>Automated infrastructure configuration using Ansible playbooks for 50+ servers, standardizing environments and reducing configuration drift by 90%</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div class="job-title" contenteditable="true" data-editable="">Junior DevOps Engineer</div>
+                        <div class="company" contenteditable="true" data-editable="">Workruit India Pvt Ltd | Hyderabad, India</div>
+                        <div class="date" contenteditable="true" data-editable="">June 2018 – May 2019</div>
+                    </div>
+                    <ul contenteditable="true" data-editable="">
+                        <li>Built CI/CD pipelines for pharmaceutical automation systems with strict GxP compliance requirements, ensuring 100% audit-ready deployments</li>
+                        <li>Administered production databases (PostgreSQL, Aurora, Redshift), performing schema optimization that improved query performance by 35%</li>
+                        <li>Automated routine maintenance tasks using Python and Bash, creating 20+ scripts that reduced manual operational effort by 50%</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Key Projects</h2>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-title" contenteditable="true" data-editable="">Enterprise Multi-Region Cloud Infrastructure Migration</div>
+                        <div class="project-meta" contenteditable="true" data-editable="">Role: Technical Lead | Duration: 8 months | Team Size: 5 engineers</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Challenge:</h4>
+                        <p contenteditable="true" data-editable="">Migrate 30+ legacy on-premises applications to AWS across multiple regions while maintaining zero downtime and ensuring HIPAA compliance for healthcare data.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Solution &amp; Implementation:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Designed hybrid cloud architecture using Terraform modules for consistent infrastructure deployment across 3 AWS regions</li>
+                            <li>Built reusable Terraform modules for VPC networking, security groups, IAM roles, reducing code duplication by 80%</li>
+                            <li>Implemented automated failover mechanisms using Route53 health checks and multi-region Aurora Global Database</li>
+                            <li>Established infrastructure state management using Terraform Cloud with role-based access control</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Results:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Completed migration 2 weeks ahead of schedule with zero data loss or downtime</li>
+                            <li>Achieved 99.99% availability SLA across all regions</li>
+                            <li>Reduced infrastructure provisioning time from 3 days to 45 minutes</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="technologies" contenteditable="true" data-editable="">
+                        <strong>Technologies:</strong> Terraform, AWS (VPC, EC2, RDS Aurora, Route53, CloudFormation), Python, Jenkins, Ansible
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-title" contenteditable="true" data-editable="">Production Kubernetes Platform Implementation</div>
+                        <div class="project-meta" contenteditable="true" data-editable="">Role: Lead DevOps Architect | Duration: 6 months | Team Size: 4 engineers</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Challenge:</h4>
+                        <p contenteditable="true" data-editable="">Modernize application deployment architecture by migrating monolithic applications to containerized microservices while reducing infrastructure costs.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Solution &amp; Implementation:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Architected production-grade EKS clusters using Terraform with custom modules for node groups, IRSA, VPC CNI, and cluster autoscaling</li>
+                            <li>Implemented GitOps workflow using ArgoCD and Flux, enabling declarative infrastructure management</li>
+                            <li>Developed Helm charts for 25+ applications with standardized configurations</li>
+                            <li>Established comprehensive observability stack using Prometheus Operator, Grafana, and Loki</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Results:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Containerized 25+ applications, reducing deployment time from 2 hours to 15 minutes</li>
+                            <li>Achieved 35% infrastructure cost reduction through efficient resource utilization</li>
+                            <li>Improved application availability from 98.5% to 99.95%</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="technologies" contenteditable="true" data-editable="">
+                        <strong>Technologies:</strong> Terraform, Kubernetes, EKS, Docker, Helm, ArgoCD, Prometheus, Grafana, GitHub Actions
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-title" contenteditable="true" data-editable="">Terraform-Based Multi-Account AWS Infrastructure Automation</div>
+                        <div class="project-meta" contenteditable="true" data-editable="">Role: Infrastructure Architect | Duration: 4 months | Team Size: 3 engineers</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Challenge:</h4>
+                        <p contenteditable="true" data-editable="">Standardize infrastructure deployment across 15+ AWS accounts with inconsistent configurations and manual provisioning processes.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Solution &amp; Implementation:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Designed and implemented Terraform module library covering networking, compute, databases, security with 40+ reusable modules</li>
+                            <li>Established Terraform Cloud workspaces with remote state management and automated approval workflows</li>
+                            <li>Implemented policy as code using Sentinel to enforce security standards and compliance requirements</li>
+                            <li>Built automated Terraform pipeline in Jenkins with validation, security scanning (tfsec, checkov), plan, and apply stages</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Results:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Achieved 100% infrastructure as code coverage across all AWS accounts</li>
+                            <li>Reduced infrastructure provisioning time by 85% (from 8 hours to 1 hour)</li>
+                            <li>Eliminated 95% of manual configuration errors through automation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="technologies" contenteditable="true" data-editable="">
+                        <strong>Technologies:</strong> Terraform, Terraform Cloud, AWS (Multi-Account), Sentinel, Jenkins, Python, tfsec, checkov
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-title" contenteditable="true" data-editable="">Infrastructure Cost Optimization &amp; FinOps Initiative</div>
+                        <div class="project-meta" contenteditable="true" data-editable="">Role: DevOps Lead | Duration: 5 months | Ongoing</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Challenge:</h4>
+                        <p contenteditable="true" data-editable="">Rapidly increasing AWS spending ($800K annually) with limited visibility into cost drivers and no automated optimization mechanisms.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Solution &amp; Implementation:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Conducted comprehensive cost analysis across 100+ AWS accounts using Cost Explorer and custom Python analytics</li>
+                            <li>Developed Terraform modules for automated resource tagging strategy with cost allocation tags</li>
+                            <li>Implemented infrastructure scheduling using Lambda and Terraform to automatically stop/start non-production resources</li>
+                            <li>Built executive dashboards in Grafana displaying real-time cost metrics and forecasts</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>Results:</h4>
+                        <ul contenteditable="true" data-editable="">
+                            <li>Achieved 30% reduction in monthly cloud spend ($240K annual savings)</li>
+                            <li>Implemented automated cost governance preventing budget overruns</li>
+                            <li>Reduced underutilized resources by 60% through automated scheduling</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="technologies" contenteditable="true" data-editable="">
+                        <strong>Technologies:</strong> Terraform, AWS (Cost Explorer, Lambda, CloudWatch), Python, Grafana, SQL, Athena
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <div class="degree" contenteditable="true" data-editable="">Master of Science in Applied Data Science</div>
+                    <div class="university" contenteditable="true" data-editable="">Indiana University Indianapolis | December 2025</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="degree" contenteditable="true" data-editable="">Master of Science in Computer Science - Machine Intelligence</div>
+                    <div class="university" contenteditable="true" data-editable="">Cochin University of Science and Technology | May 2021</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="degree" contenteditable="true" data-editable="">Bachelor of Technology - Computer Science</div>
+                    <div class="university" contenteditable="true" data-editable="">Gitam University | May 2018</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Technical Achievements</h2>
+                <ul class="achievements" contenteditable="true" data-editable="">
+                    <li>Designed and maintained 40+ reusable Terraform modules adopted across enterprise for standardized infrastructure deployment</li>
+                    <li>Reduced infrastructure deployment errors by 95% through comprehensive Terraform validation and automated testing</li>
+                    <li>Architected multi-region disaster recovery solution achieving 15-minute RTO and 5-minute RPO</li>
+                    <li>Mentored 8+ junior engineers on Infrastructure as Code best practices and Terraform module development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <button class="btn btn-edit editing" id="editBtn">✅ Done Editing</button>
+        <button class="btn" id="downloadBtn">💾 Download PDF</button>
+    </div>
+    
+    <script>
+        let isEditing = false;
+        const editBtn = document.getElementById('editBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const editHint = document.getElementById('editHint');
+        const editableElements = document.querySelectorAll('[data-editable]');
+        
+        // Toggle edit mode
+        editBtn.addEventListener('click', function() {
+            isEditing = !isEditing;
+            
+            if (isEditing) {
+                editBtn.textContent = '✅ Done Editing';
+                editBtn.classList.add('editing');
+                editHint.classList.add('show');
+                
+                editableElements.forEach(el => {
+                    el.contentEditable = 'true';
+                });
+            } else {
+                editBtn.textContent = '✏️ Edit Mode';
+                editBtn.classList.remove('editing');
+                editHint.classList.remove('show');
+                
+                editableElements.forEach(el => {
+                    el.contentEditable = 'false';
+                });
+            }
+        });
+        
+        // Download as PDF
+        downloadBtn.addEventListener('click', function() {
+            // Temporarily disable editing for print
+            const wasEditing = isEditing;
+            if (wasEditing) {
+                editableElements.forEach(el => {
+                    el.contentEditable = 'false';
+                });
+            }
+            
+            window.print();
+            
+            // Re-enable editing if it was on
+            if (wasEditing) {
+                setTimeout(() => {
+                    editableElements.forEach(el => {
+                        el.contentEditable = 'true';
+                    });
+                }, 100);
+            }
+        });
+        
+        // Keyboard shortcut for print (Ctrl/Cmd + P)
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                downloadBtn.click();
+            }
+        });
+    </script>
+
+</body></html>
