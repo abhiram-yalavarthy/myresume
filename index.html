@@ -109,10 +109,20 @@
             padding: 12px 15px;
             border-left: 3px solid #3b82f6;
             font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
         
         .cert-item strong {
             color: #1e3a8a;
+        }
+        
+        .cert-icon {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            flex-shrink: 0;
         }
         
         .skills-grid {
@@ -318,7 +328,7 @@
                 <span>💼 linkedin.com/in/Abhiram-Yalavarthy</span>
             </div>
             <div class="location-info">
-                📍 Raleigh, NC | Willing to Relocate: Anywhere in the US | Work Authorization: F1-OPT, EAD Approved
+                📍 Harrisburg, PA | Willing to Relocate: Anywhere in the US | Work Authorization: F1-OPT, EAD Approved
             </div>
         </div>
         
@@ -332,13 +342,16 @@
                 <h2>Certifications</h2>
                 <div class="certifications">
                     <div class="cert-item">
-                        <strong>HashiCorp Certified: Terraform Associate</strong> | HashiCorp
+                        <img src="https://cdn.simpleicons.org/terraform/7B42BC" alt="Terraform" class="cert-icon">
+                        <span><strong>HashiCorp Certified: Terraform Associate</strong> | HashiCorp</span>
                     </div>
                     <div class="cert-item">
-                        <strong>AWS Certified Solutions Architect – Associate</strong> | Amazon Web Services
+                        <img src="https://cdn.simpleicons.org/amazonwebservices/FF9900" alt="AWS" class="cert-icon">
+                        <span><strong>AWS Certified Solutions Architect – Associate</strong> | Amazon Web Services</span>
                     </div>
                     <div class="cert-item">
-                        <strong>Certified Kubernetes Administrator (CKA)</strong> | Cloud Native Computing Foundation
+                        <img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="Kubernetes" class="cert-icon">
+                        <span><strong>Certified Kubernetes Administrator (CKA)</strong> | Cloud Native Computing Foundation</span>
                     </div>
                 </div>
             </div>
@@ -373,8 +386,8 @@
                 <div class="experience-item">
                     <div class="job-header">
                         <div class="job-title">Senior DevOps Engineer</div>
-                        <div class="company">Infosys Limited | Hyderabad, India</div>
-                        <div class="date">January 2022 – December 2023</div>
+                        <div class="company">University Hospital | Cleveland, OH</div>
+                        <div class="date">January 2021 – Present</div>
                     </div>
                     <ul>
                         <li>Architected enterprise CI/CD infrastructure serving 50+ microservices, reducing deployment time from 2 hours to 30 minutes (75% improvement) and enabling 100+ weekly deployments with zero production incidents</li>
