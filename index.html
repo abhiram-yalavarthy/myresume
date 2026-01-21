@@ -333,7 +333,7 @@
                 <span>💼 linkedin.com/in/Abhiram-Yalavarthy</span>
             </div>
             <div class="location-info">
-                📍 Raleigh,NC | Willing to Relocate: Anywhere in the US | 
+                📍 Harrisburg, PA | Willing to Relocate: Anywhere in the US | Work Authorization: F1-OPT, EAD Approved
             </div>
         </div>
         
@@ -477,32 +477,23 @@
                     
                     <div class="project-section">
                         <h4>Overview:</h4>
-                        <p>Led critical migration of 30+ healthcare applications from on-premises infrastructure to AWS multi-region architecture supporting 500,000+ patients. Designed and implemented HIPAA-compliant cloud infrastructure with zero-downtime migration strategy.</p>
+                        <p>Led critical migration of 30+ healthcare applications from on-premises infrastructure to AWS multi-region architecture supporting 500,000+ patients. Designed and implemented <span class="tech-highlight">HIPAA</span>-compliant cloud infrastructure with zero-downtime migration strategy ensuring complete protection of Protected Health Information (PHI).</p>
                     </div>
                     
                     <div class="project-section">
-                        <h4>Key Responsibilities:</h4>
+                        <h4>Implementation & Results:</h4>
                         <ul>
-                            <li>Architected multi-region AWS infrastructure using <span class="tech-highlight">Terraform</span> with 50+ custom modules for networking, compute, and database components</li>
-                            <li>Implemented automated failover mechanisms using Route53 health checks and Aurora Global Database for cross-region replication</li>
-                            <li>Established comprehensive security controls including AWS Config, CloudTrail, GuardDuty, and VPC Flow Logs for HIPAA compliance</li>
-                            <li>Executed database migration using AWS DMS migrating 15TB+ data with continuous replication and zero data loss</li>
-                            <li>Built CI/CD pipeline with <span class="tech-highlight">Jenkins</span> and <span class="tech-highlight">Terraform</span> for automated infrastructure deployment and validation</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="project-section">
-                        <h4>Results:</h4>
-                        <ul>
-                            <li>Completed migration ahead of schedule with zero downtime and zero patient-impacting incidents</li>
-                            <li>Achieved high availability SLA and improved application performance</li>
-                            <li>Reduced infrastructure provisioning time and eliminated manual configuration errors</li>
-                            <li>Successfully passed HIPAA compliance audit with zero critical findings</li>
+                            <li>Architected multi-region AWS infrastructure using <span class="tech-highlight">Terraform</span> with 50+ custom modules for networking, compute, and database components, completing migration ahead of schedule with zero downtime</li>
+                            <li>Implemented comprehensive <span class="tech-highlight">HIPAA</span> compliance controls including AWS Config rules, CloudTrail audit logging with 7-year retention, GuardDuty threat detection, and encryption at rest/in transit for all PHI data, successfully passing compliance audit with zero critical findings</li>
+                            <li>Established automated failover mechanisms using Route53 health checks and Aurora Global Database for cross-region replication achieving high availability SLA and improved application performance</li>
+                            <li>Executed database migration using AWS DMS migrating 15TB+ of patient data with continuous replication, zero data loss, and complete audit trail for compliance requirements</li>
+                            <li>Built CI/CD pipeline with <span class="tech-highlight">Jenkins</span> and <span class="tech-highlight">Terraform</span> for automated infrastructure deployment with security validation, significantly reducing provisioning time and eliminating manual errors</li>
+                            <li>Configured VPC Flow Logs, centralized logging to S3, and automated security scanning ensuring continuous <span class="tech-highlight">HIPAA</span> compliance monitoring and real-time threat detection</li>
                         </ul>
                     </div>
                     
                     <div class="technologies">
-                        <strong>Technologies:</strong> <span class="tech-highlight">Terraform</span>, <span class="tech-highlight">AWS</span> (VPC, EC2, RDS Aurora, Route53, DMS, S3, CloudWatch, Config, GuardDuty), <span class="tech-highlight">Python</span>, <span class="tech-highlight">Jenkins</span>, <span class="tech-highlight">Ansible</span>
+                        <strong>Technologies:</strong> <span class="tech-highlight">Terraform</span>, <span class="tech-highlight">AWS</span> (VPC, EC2, RDS Aurora, Route53, DMS, S3, CloudWatch, Config, GuardDuty, KMS), <span class="tech-highlight">Python</span>, <span class="tech-highlight">Jenkins</span>, <span class="tech-highlight">Ansible</span>
                     </div>
                 </div>
                 
@@ -514,32 +505,23 @@
                     
                     <div class="project-section">
                         <h4>Overview:</h4>
-                        <p>Spearheaded modernization initiative transforming monolithic applications into containerized microservices architecture on Kubernetes. Established comprehensive container platform with automated deployments, monitoring, and security capabilities.</p>
+                        <p>Spearheaded modernization initiative transforming monolithic healthcare applications into containerized microservices architecture on Kubernetes. Established comprehensive container platform with automated deployments, monitoring, and <span class="tech-highlight">HIPAA</span>-compliant security capabilities for patient-facing services.</p>
                     </div>
                     
                     <div class="project-section">
-                        <h4>Key Responsibilities:</h4>
+                        <h4>Implementation & Results:</h4>
                         <ul>
-                            <li>Designed production-grade <span class="tech-highlight">EKS</span> clusters using <span class="tech-highlight">Terraform</span> with managed node groups and cluster autoscaling</li>
-                            <li>Implemented GitOps workflow using <span class="tech-highlight">ArgoCD</span> for declarative infrastructure and application management</li>
-                            <li>Containerized 25+ applications creating optimized <span class="tech-highlight">Docker</span> images and <span class="tech-highlight">Helm</span> charts with standardized configurations</li>
-                            <li>Deployed comprehensive observability stack using <span class="tech-highlight">Prometheus</span>, <span class="tech-highlight">Grafana</span>, and Loki for metrics, visualization, and logging</li>
-                            <li>Implemented security hardening with Pod Security Standards, OPA Gatekeeper policies, and runtime threat detection using Falco</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="project-section">
-                        <h4>Results:</h4>
-                        <ul>
-                            <li>Significantly reduced deployment time and increased deployment frequency</li>
-                            <li>Achieved substantial infrastructure cost reduction through efficient resource utilization</li>
-                            <li>Improved application availability and reduced mean time to recovery</li>
-                            <li>Enabled developer self-service reducing operational bottlenecks</li>
+                            <li>Designed production-grade <span class="tech-highlight">EKS</span> clusters using <span class="tech-highlight">Terraform</span> with managed node groups and cluster autoscaling, containerizing 25+ healthcare applications with significantly reduced deployment time and increased release frequency</li>
+                            <li>Implemented <span class="tech-highlight">HIPAA</span>-compliant security architecture including Pod Security Standards, encrypted secrets using AWS KMS, network policies for pod isolation, and audit logging for all PHI access, achieving zero security violations in audits</li>
+                            <li>Established GitOps workflow using <span class="tech-highlight">ArgoCD</span> for declarative infrastructure management with automated rollback capabilities, achieving improved availability and reduced mean time to recovery</li>
+                            <li>Containerized applications creating optimized <span class="tech-highlight">Docker</span> images and <span class="tech-highlight">Helm</span> charts with security scanning integrated in CI/CD pipeline, achieving substantial infrastructure cost reduction through efficient resource utilization</li>
+                            <li>Deployed comprehensive observability stack using <span class="tech-highlight">Prometheus</span>, <span class="tech-highlight">Grafana</span>, and Loki for metrics and logging with <span class="tech-highlight">HIPAA</span>-compliant log retention policies, enabling faster troubleshooting and proactive issue detection</li>
+                            <li>Implemented runtime security using Falco and OPA Gatekeeper policies ensuring continuous compliance monitoring and automated enforcement of security standards for healthcare workloads</li>
                         </ul>
                     </div>
                     
                     <div class="technologies">
-                        <strong>Technologies:</strong> <span class="tech-highlight">Kubernetes</span>, <span class="tech-highlight">EKS</span>, <span class="tech-highlight">Terraform</span>, <span class="tech-highlight">Docker</span>, <span class="tech-highlight">Helm</span>, <span class="tech-highlight">ArgoCD</span>, <span class="tech-highlight">Prometheus</span>, <span class="tech-highlight">Grafana</span>, Loki, Falco, OPA, <span class="tech-highlight">GitHub Actions</span>
+                        <strong>Technologies:</strong> <span class="tech-highlight">Kubernetes</span>, <span class="tech-highlight">EKS</span>, <span class="tech-highlight">Terraform</span>, <span class="tech-highlight">Docker</span>, <span class="tech-highlight">Helm</span>, <span class="tech-highlight">ArgoCD</span>, <span class="tech-highlight">Prometheus</span>, <span class="tech-highlight">Grafana</span>, Loki, Falco, OPA, <span class="tech-highlight">GitHub Actions</span>, <span class="tech-highlight">AWS KMS</span>
                     </div>
                 </div>
                 
@@ -551,27 +533,18 @@
                     
                     <div class="project-section">
                         <h4>Overview:</h4>
-                        <p>Standardized infrastructure deployment across 15+ AWS accounts implementing comprehensive Infrastructure as Code practices. Developed reusable module library and automated governance controls.</p>
+                        <p>Standardized infrastructure deployment across 15+ AWS accounts implementing comprehensive Infrastructure as Code practices. Developed reusable module library and automated governance controls for consistent, secure infrastructure provisioning.</p>
                     </div>
                     
                     <div class="project-section">
-                        <h4>Key Responsibilities:</h4>
+                        <h4>Implementation & Results:</h4>
                         <ul>
-                            <li>Developed <span class="tech-highlight">Terraform</span> module library with 40+ reusable modules covering networking, compute, databases, and security</li>
-                            <li>Implemented Terraform Cloud workspaces with remote state management and automated approval workflows</li>
-                            <li>Established policy as code using Sentinel enforcing security standards and compliance requirements</li>
-                            <li>Built automated pipeline in <span class="tech-highlight">Jenkins</span> with validation, security scanning (tfsec, checkov), and automated deployment</li>
-                            <li>Created drift detection system using <span class="tech-highlight">Python</span> with automated alerting and remediation</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="project-section">
-                        <h4>Results:</h4>
-                        <ul>
-                            <li>Achieved complete infrastructure as code coverage across all AWS accounts</li>
-                            <li>Significantly reduced infrastructure provisioning time through automation</li>
-                            <li>Eliminated manual configuration errors and security vulnerabilities</li>
-                            <li>Enabled accurate cost allocation and chargeback through standardized tagging</li>
+                            <li>Developed <span class="tech-highlight">Terraform</span> module library with 40+ reusable modules covering networking, compute, databases, and security, achieving complete infrastructure as code coverage across all AWS accounts</li>
+                            <li>Implemented Terraform Cloud workspaces with remote state management and automated approval workflows, significantly reducing infrastructure provisioning time and eliminating manual errors</li>
+                            <li>Established policy as code using Sentinel enforcing security standards, encryption requirements, and compliance policies with automated validation preventing insecure infrastructure deployment</li>
+                            <li>Built automated pipeline in <span class="tech-highlight">Jenkins</span> with validation, security scanning (tfsec, checkov), and deployment stages, reducing security vulnerabilities and compliance violations</li>
+                            <li>Created drift detection system using <span class="tech-highlight">Python</span> with automated alerting and remediation, maintaining consistent infrastructure state and security posture</li>
+                            <li>Enabled accurate cost allocation through standardized tagging strategy implemented in Terraform modules, providing visibility for chargeback and budget management</li>
                         </ul>
                     </div>
                     
@@ -588,28 +561,18 @@
                     
                     <div class="project-section">
                         <h4>Overview:</h4>
-                        <p>Implemented comprehensive FinOps practices addressing escalating cloud costs across 100+ AWS accounts. Established cost visibility, automated governance, and optimization strategies.</p>
+                        <p>Implemented comprehensive FinOps practices addressing escalating cloud costs across 100+ AWS accounts. Established cost visibility, automated governance, and optimization strategies achieving substantial cost reduction.</p>
                     </div>
                     
                     <div class="project-section">
-                        <h4>Key Responsibilities:</h4>
+                        <h4>Implementation & Results:</h4>
                         <ul>
-                            <li>Conducted comprehensive cost analysis using AWS Cost Explorer API and custom <span class="tech-highlight">Python</span> analytics</li>
-                            <li>Implemented automated resource tagging strategy using <span class="tech-highlight">Terraform</span> for accurate cost allocation</li>
-                            <li>Built automated scheduling system using Lambda to stop/start non-production resources during off-hours</li>
-                            <li>Deployed right-sizing recommendations using AWS Compute Optimizer for EC2 and RDS instances</li>
-                            <li>Created real-time cost dashboards in <span class="tech-highlight">Grafana</span> with automated alerting for spending anomalies</li>
-                            <li>Implemented storage optimization with S3 lifecycle policies and automated cleanup of orphaned resources</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="project-section">
-                        <h4>Results:</h4>
-                        <ul>
-                            <li>Achieved substantial reduction in monthly cloud spending while supporting business growth</li>
-                            <li>Implemented accurate chargeback enabling cost accountability across business units</li>
-                            <li>Reduced waste through automated cleanup and resource optimization</li>
-                            <li>Established FinOps culture with ongoing cost optimization practices</li>
+                            <li>Conducted comprehensive cost analysis using AWS Cost Explorer API and custom <span class="tech-highlight">Python</span> analytics identifying optimization opportunities including underutilized resources, oversized instances, and orphaned storage</li>
+                            <li>Implemented automated resource tagging strategy using <span class="tech-highlight">Terraform</span> for accurate cost allocation across business units, achieving high tag compliance and enabling chargeback capabilities</li>
+                            <li>Built automated scheduling system using Lambda to stop/start non-production resources during off-hours, significantly reducing compute costs while maintaining development productivity</li>
+                            <li>Deployed right-sizing recommendations using AWS Compute Optimizer for EC2 and RDS instances, achieving substantial cost savings through optimization without performance impact</li>
+                            <li>Created real-time cost dashboards in <span class="tech-highlight">Grafana</span> with automated alerting for spending anomalies, reducing time to identify cost issues and preventing budget overruns</li>
+                            <li>Implemented storage optimization with S3 lifecycle policies and automated cleanup of orphaned resources, reducing storage costs and establishing ongoing cost optimization culture</li>
                         </ul>
                     </div>
                     
